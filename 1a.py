@@ -1,6 +1,6 @@
 import pandas as pd 
 
-file_path = "/content/Test - input-applicant.xlsx"
+file_path = "./Test - input-applicant.xlsx"
 excel = pd.ExcelFile(file_path)
 
 ex1 = pd.read_excel(excel,sheet_name='transactions')
