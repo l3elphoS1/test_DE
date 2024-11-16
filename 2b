@@ -1,0 +1,5 @@
+select date,total, A as user_id,Name
+from UserName u  
+join Name n on u.B = n.id  
+JOIN transactions t 
+on t.userId = u.A
